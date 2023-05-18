@@ -1,0 +1,45 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: grid;
+	place-content: center;
+	height: 100vh;
+	font-family: 'Outfit', sans-serif;
+	background-color: hsl(212, 45%, 89%);
+}
+
+.qr-image,
+.card {
+	border-radius: 15px;
+}
+
+.card {
+	width: 610px;
+	padding: 20px;
+	background: white;
+}
+
+.qr-image {
+	width:70%;
+}
+
+.card-content {
+	font-size:22px;
+	text-align: center;
+	padding: 25px 20px;
+}
+
+.card-title {
+	margin: 0 0 20px;
+	color: hsl(218, 44%, 22%);
+	font-size: 24px;
+}
+
+.card-text {
+	margin: 0;
+	font-size: 1.1em;
+	color: hsl(220, 15%, 55%);
+}
